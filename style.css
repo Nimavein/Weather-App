@@ -70,9 +70,8 @@ body, html {
 
 .vl {
     margin-left: 40px;
-    border-left: 6px solid rgb(204, 88, 10);
+    border-left: 3px solid rgb(204, 88, 10);
     height: 26vh;
-    top: 0;
   }
 
 .invisible {
