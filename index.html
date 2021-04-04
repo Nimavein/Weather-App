@@ -7,19 +7,30 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <form id="search-form">
-        <label for="search-box">Search:</label>
-        <input id="search-input" placeholder="Search city" type="text" value="">
-        <button id="submit-button" value="submit">Search</button>
-    </form>
+    <div class="search-div">
+        <form id="search-form">
+            <input id="search-input" placeholder="Search city" type="text" value="">
+            <button id="submit-button" value="submit">Search</button>
+        </form>
+        <div class="error-div">
+            <p id="error"></p>
+        </div>
+    </div>
 
     <div id="weather-display">
-        <p class="weather-display-element" id="city"></p>
-        <p class="weather-display-element" id="temp-in-c"></p>
-        <p class="weather-display-element" id="temp-in-f"></p>
-        <p class="weather-display-element" id="temp-feels-like"></p>
-        <p class="weather-display-element" id="humidity"></p>
-        <p class="weather-display-element" id="pressure"></p>
+        <div class="big-elems">
+            <p class="weather-display-element" id="description"></p>
+            <p class="weather-display-element" id="city"></p>
+            <p class="weather-display-element" id="temp-in-c"></p>
+            <p class="weather-display-element" id="temp-in-f"></p>
+        </div>
+        <div class="vl invisible" id="vertical-line"></div>
+        <div class="small-elems">
+            <p class="weather-display-element" id="temp-feels-like"></p>
+            <p class="weather-display-element" id="humidity"></p>
+            <p class="weather-display-element" id="pressure"></p>
+            <p class="weather-display-element" id="wind"></p>
+        </div>
     </div>
 
     <script src="script.js"></script>
