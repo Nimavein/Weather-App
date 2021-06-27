@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <div class="search-div">
-        <form id="search-form">
-            <input id="search-input" placeholder="Search city" type="text" value="">
-            <button id="submit-button" value="submit">Search</button>
-        </form>
-        <div class="error-div">
-            <p id="error"></p>
-        </div>
+      <form id="search-form">
+        <input
+          id="search-input"
+          placeholder="Search city"
+          type="text"
+          value=""
+        />
+        <button id="submit-button" value="submit">Search</button>
+      </form>
+      <div class="error-div">
+        <p id="error"></p>
+      </div>
     </div>
 
     <div id="weather-display">
-        <div class="big-elems">
-            <p class="weather-display-element" id="description"></p>
-            <p class="weather-display-element" id="city"></p>
-            <p class="weather-display-element" id="temp-in-c"></p>
-            <p class="weather-display-element" id="temp-in-f"></p>
-        </div>
-        <div class="vl invisible" id="vertical-line"></div>
-        <div class="small-elems">
-            <p class="weather-display-element" id="temp-feels-like"></p>
-            <p class="weather-display-element" id="humidity"></p>
-            <p class="weather-display-element" id="pressure"></p>
-            <p class="weather-display-element" id="wind"></p>
-        </div>
+      <div class="big-elems">
+        <p class="weather-display-element" id="description"></p>
+        <p class="weather-display-element" id="city"></p>
+        <p class="weather-display-element" id="temp-in-c"></p>
+        <p class="weather-display-element" id="temp-in-f"></p>
+      </div>
+      <div class="vl invisible" id="vertical-line"></div>
+      <div class="small-elems">
+        <p class="weather-display-element" id="temp-feels-like"></p>
+        <p class="weather-display-element" id="humidity"></p>
+        <p class="weather-display-element" id="pressure"></p>
+        <p class="weather-display-element" id="wind"></p>
+      </div>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
